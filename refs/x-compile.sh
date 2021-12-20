@@ -309,7 +309,7 @@ Build_CT-NG() {
 
 	* C library >
 	Type: glibc	# NOTE: K5, PW2 & KOBO actually use eglibc, but that's been dropped from ct-ng, and it's ABI compatible, so we use mainline glibc instead
-	Version: 2.9	|	2.12.2	# NOTE: The ports addon for this glibc version has never been released. Gentoo used the one from 2.12.1. I rolled a tarball manually from https://sourceware.org/git/?p=glibc-ports.git;a=shortlog;h=refs/heads/release/2.12/master (except from the 2.12.2 tag, not the branch).
+	Version: 2.9	|	2.19	# NOTE: The ports addon for this glibc version has never been released. Gentoo used the one from 2.12.1. I rolled a tarball manually from https://sourceware.org/git/?p=glibc-ports.git;a=shortlog;h=refs/heads/release/2.12/master (except from the 2.12.2 tag, not the branch).
 	Threading: nptl
 	Minimum supported kernel version: 2.6.22	|	2.6.31		|	3.0.35
 
